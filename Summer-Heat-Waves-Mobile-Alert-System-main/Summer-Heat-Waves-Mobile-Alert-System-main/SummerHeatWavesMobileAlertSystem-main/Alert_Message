@@ -1,6 +1,6 @@
 # Mock implementation for sending alerts
 import Client
-account_sid = 'Shankar'
+account_sid = 'amit'
 auth_token = '78562'
 client = Client(account_sid, auth_token)def send_alert(message, to_phone_number):
     from_phone_number = '9492948799'
